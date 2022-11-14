@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+  int p, c, m, avg;
+  printf("Enter the marks of physics ,chemistry and math:");
+  scanf("%d%d%d", &p, &c, &m) ;
+   avg = (p + c + m) / 3;
+
+  printf("Your physics marks is:%d\n Your chemistry marks is %d\nYour math marks is %d", p, c, m);
+  printf("\nYour total Average Marks is:%d", avg);
+  if (avg >= 35)
+    printf("\nPass");
+  else
+    printf("\nFail");
+}
